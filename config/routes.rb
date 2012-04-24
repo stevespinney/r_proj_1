@@ -1,5 +1,5 @@
 Acetis::Application.routes.draw do
-  root :to => 'home_controller#index'
+  root to: 'home_controller#index'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
