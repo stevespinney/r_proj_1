@@ -1,0 +1,34 @@
+<% provide(:title, 'Acetis::Contact Us') %>
+<h2>Contact Form</h2>
+<br />
+<form class="form-horizontal">
+  <fieldset>
+    <legend>Contact Us</legend>
+    <div class="control-group">
+      <label class="control-label" for="fname">*Firstname:</label>
+      <div class="controls">
+        <input type="text" class="input-xlarge" id="fname">
+        <p class="help-block">Please enter your firstname</p>
+      </div>
+      <label class="control-label" for="lname">*Lastname:</label>
+      <div class="controls">
+        <input type="text" class="input-xlarge" id="lname">
+        <p class="help-block">Please enter your lastname</p>
+      </div>
+      <label class="control-label" for="email">*Email:</label>
+      <div class="controls">
+        <input type="text" class="input-xlarge" id="email">
+        <p class="help-block">Please enter your email, so we can get back to you</p>
+      </div>
+      <label class="control-label" for="msg">*Message:</label>
+      <div class="controls">
+        <textarea type="text" class="input-xlarge" id="msg" cols='10' rows="4"></textarea>
+        <p class="help-block">What would you like to tell us?</p>
+      </div>
+      <div class="form-actions">
+        <button type="submit" class="btn btn-primary">Send</button>
+        <button class="btn">Cancel</button>
+      </div>
+    </div>
+  </fieldset>
+</form>
