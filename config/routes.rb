@@ -1,6 +1,6 @@
 Acetis::Application.routes.draw do
   root to: 'home_controller#index'
-  match '/wines' to: 'wine_controller#index'
+  match '/wines', to: 'wine#index'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
