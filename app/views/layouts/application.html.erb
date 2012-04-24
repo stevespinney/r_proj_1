@@ -9,21 +9,7 @@
 </head>
 <body>
 	<div class='wrapper'>
-	    <header class="navbar">
-	      <div class="navbar-inner">
-	        <div class="container">
-	          <%= link_to "Acetis", '#', id: "logo" %>
-	          <nav>
-	            <ul class="nav pull-right">
-	              <li><%= link_to "Home",    '/' %></li>
-	              <li><%= link_to "Wines",    '#' %></li>
-	              <li><%= link_to "Liquors", '#' %></li>
-	              <li><%= link_to "Contact", '#' %></li>
-	            </ul>
-	          </nav>
-	        </div>
-	      </div>
-	    </header>
+	    <%= render 'layouts/header' %>
 	    <div class="content">
 	      <%= yield %>
 	    </div>
